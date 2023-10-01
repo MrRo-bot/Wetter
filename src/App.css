@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --green: hsl(165, 78%, 45%);
+  --yellow: hsl(50, 92%, 66%);
+  --orange: hsl(24, 98%, 69%);
+  --red: hsl(355, 92%, 62%);
+  --purple: hsl(270, 81%, 67%);
+  --maroon: hsl(353, 57%, 44%);
+}
+
+* {
+  /* outline: 1px dotted green; */
+  transition:
+    background-color,
+    color 0.4s ease;
+}
+
+#blades {
+  transform-box: fill-box;
+  transform-origin: center;
+}
