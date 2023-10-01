@@ -9,7 +9,7 @@
   - [API](#api)
   - [Dependencies](#dependencies)
   - [Web-technologies](#web-technologies)
-  - [References] (#references)
+  - [References](#references)
 - [Future-plans](#future-plans)
 
 ---
@@ -30,10 +30,6 @@ I created this web app to showcase data fetching ability and land a job as a Rea
 - Visualization of data using charts,
 - Air quality index,
 - Some animations.
-
-### Screenshare
-
-![/demo.mp4](demo video)
 
 ### Links
 
@@ -68,7 +64,7 @@ I created this web app to showcase data fetching ability and land a job as a Rea
 - Github
 - Netlify
 
-### References :)
+### References
 
 - **[MDN](https://developers.mozilla.org)** - Everything WEB.
 - **[react.dev](https://react.dev)** - Everything React.
