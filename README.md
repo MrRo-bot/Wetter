@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f7b1359f-3e11-4f29-88cd-7f8204e93b29/deploy-status)](https://app.netlify.com/sites/wetterforecast/deploys)
-
 # Table of contents
 
 - [Overview](#overview)
@@ -15,6 +13,8 @@
 - [Future-plans](#future-plans)
 
 ---
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f7b1359f-3e11-4f29-88cd-7f8204e93b29/deploy-status)](https://app.netlify.com/sites/wetterforecast/deploys)
 
 ## Overview
 
