@@ -12,7 +12,7 @@
 ![Prettier](https://img.shields.io/badge/ESLint-darkpurple)
 
 ![desktop screenshot](/public/desktop-screenshot.png "Desktop Screenshot")
-![mobile screenshot](/public/mobile-screenshot.jpg "Mobile Screenshot")
+![mobile screenshot](/public/mobile-screenshot.png "Mobile Screenshot")
 
 ## Table of contents
 
