@@ -51,10 +51,12 @@ const Daily = ({ daily }) => {
               </span>
               <img
                 className="w-6"
-                src={`/assets/w${
+                src={`/${
                   typeof x.weatherIcon != "object"
                     ? x.weatherIcon
-                    : x.weatherIcon[0]
+                    : x.isDay
+                    ? x.weatherIcon[0]
+                    : x.weatherIcon[1]
                 }.svg`}
                 alt="⚠️"
               />

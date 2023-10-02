@@ -3,7 +3,6 @@
 - [Overview](#overview)
   - [About](#about)
   - [Features](#features)
-  - [Screenshare](#screenshare)
   - [Links](#links)
 - [Resources](#resources)
   - [API](#api)

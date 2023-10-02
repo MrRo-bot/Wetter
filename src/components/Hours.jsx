@@ -34,7 +34,7 @@ const Hours = ({ hours, handleRender }) => {
               <div className="row-start-1 row-end-2 p-3 mx-auto rounded-full h-fit first:bg-greyBackHourly first:dark:bg-greyBackHourlyD">
                 <img
                   className="w-4 h-4"
-                  src={`/assets/w${
+                  src={`/${
                     typeof x.weatherIcon != "object"
                       ? x.weatherIcon
                       : x.isDay

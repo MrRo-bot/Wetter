@@ -47,7 +47,7 @@ const Hourly = ({ hourly }) => {
               </span>
               <img
                 className="w-4 my-1 sm:my-0 sm:w-6"
-                src={`/assets/w${
+                src={`/${
                   typeof x.weatherIcon != "object"
                     ? x.weatherIcon
                     : x.isDay
