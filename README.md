@@ -35,7 +35,7 @@ I created this web app to showcase data fetching ability and land a job as a Rea
 
 ### Links
 
-- Netlify URL: []
+- Netlify URL: [https://wetterforecast.netlify.app]
 
 ---
 
