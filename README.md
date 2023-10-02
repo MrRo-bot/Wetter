@@ -1,22 +1,18 @@
 # Wetter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f7b1359f-3e11-4f29-88cd-7f8204e93b29/deploy-status)](https://app.netlify.com/sites/wetterforecast/deploys)
-![GitHub Org's stars](https://img.shields.io/github/stars/:org)
-![GitHub](https://img.shields.io/github/license/:user/:repo)
-![GitHub issues](https://img.shields.io/github/issues/:user/:repo)
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/:user/:repo/:workflow)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/:interval/:user/:repo)
+
 ![React](https://img.shields.io/badge/React-teal)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
 ![ES6](https://img.shields.io/badge/ES6-yellow)
-![Vite]https://img.shields.io/badge/Vite-purple
-![NPM]https://img.shields.io/badge/NPM-red
-![ESLint]https://img.shields.io/badge/ESLint-purple
-![Prettier]https://img.shields.io/badge/ESLint-darkpurple
+![Vite](https://img.shields.io/badge/Vite-purple)
+![NPM](https://img.shields.io/badge/NPM-red)
+![ESLint](https://img.shields.io/badge/ESLint-purple)
+![Prettier](https://img.shields.io/badge/ESLint-darkpurple)
 
 ![desktop screenshot](/public/desktop-screenshot.png "Desktop Screenshot")
-![mobile screenshot](/public/mobile-screenshot.png "Mobile Screenshot")
+![mobile screenshot](/public/mobile-screenshot.jpg "Mobile Screenshot")
 
 ## Table of contents
 
