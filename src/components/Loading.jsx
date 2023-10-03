@@ -12,7 +12,9 @@ const Loading = () => {
     >
       <div className="relative flex flex-col items-center">
         <img className="w-36 h-36" src={weatherman} />
-        <span className="text-3xl name text-[var(--maroon)]">Wetter</span>
+        <span className="font-audiowide text-3xl text-[var(--maroon)]">
+          Wetter
+        </span>
         <motion.span
           initial={{ x: -48, opacity: 0, rotate: 0 }}
           animate={{ x: 0, opacity: 1, rotate: -25 }}
