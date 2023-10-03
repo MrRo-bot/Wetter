@@ -14,8 +14,6 @@ const Brief = ({ brief, sunPos, img, city, daysData }) => {
       try {
         let col = await extractColors(img, {
           crossOrigin: true,
-          intensity: 0.7,
-          saturation: 0.9,
         });
         if (!col) {
           throw new Error("Something's off");
@@ -119,7 +117,7 @@ const Brief = ({ brief, sunPos, img, city, daysData }) => {
             animate="visible"
             transition={{ duration: 0.4, delay: 0.5 }}
             style={{ color: `${clrFrmImg || "gray"}` }}
-            className="mr-4 text-6xl font-thin sm:text-7xl md:text-6xl lg:text-7xl font-inter"
+            className="mr-4 text-6xl font-thin drop-shadow-lg sm:text-7xl md:text-6xl lg:text-7xl font-inter"
           >
             {brief.currentTemp}
           </motion.span>
@@ -136,19 +134,19 @@ const Brief = ({ brief, sunPos, img, city, daysData }) => {
           >
             <sup
               style={{ color: `${clrFrmImg || "gray"}` }}
-              className="text-2xl font-extralight sm:text-3xl md:text-2xl lg:text-3xl font-inter"
+              className="text-2xl drop-shadow-lg font-extralight sm:text-3xl md:text-2xl lg:text-3xl font-inter"
             >
               {brief.maxTemp}
             </sup>
             <span
               style={{ color: `${clrFrmImg || "gray"}` }}
-              className="text-2xl font-extralight sm:text-3xl md:text-2xl lg:text-3xl font-inter"
+              className="text-2xl drop-shadow-lg font-extralight sm:text-3xl md:text-2xl lg:text-3xl font-inter"
             >
               /{" "}
             </span>
             <sub
               style={{ color: `${clrFrmImg || "gray"}` }}
-              className="text-2xl font-extralight sm:text-3xl md:text-2xl lg:text-3xl font-inter"
+              className="text-2xl drop-shadow-lg font-extralight sm:text-3xl md:text-2xl lg:text-3xl font-inter"
             >
               {brief.minTemp}
             </sub>
