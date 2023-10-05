@@ -140,7 +140,7 @@ export const weatherCodeConv = (code) => {
     case 0:
       return "Clear sky";
     case 1:
-      return "Mainly clear";
+      return "Mainly clear sky";
     case 2:
       return "Partly cloudy";
     case 3:
