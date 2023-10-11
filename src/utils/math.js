@@ -291,17 +291,17 @@ export const wingSpeed = (value) => {
   }
 };
 
-export const alertIcon = (value) => {
-  switch (true) {
-    case 55:
-    case 57:
-    case 65:
-    case 67:
-    case 75:
-    case 82:
-    case 86:
-    case 95:
-    case 99:
-      return "⚠️";
-  }
-};
+// export const alertIcon = (value) => {
+//   switch (true) {
+//     case 55:
+//     case 57:
+//     case 65:
+//     case 67:
+//     case 75:
+//     case 82:
+//     case 86:
+//     case 95:
+//     case 99:
+//       return "⚠️";
+//   }
+// };

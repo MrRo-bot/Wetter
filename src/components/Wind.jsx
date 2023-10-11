@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import WindMill from "./WindMill";
 import { wingSpeed } from "../utils/math";
 import FramerAnimations from "../utils/FramerAnimations";

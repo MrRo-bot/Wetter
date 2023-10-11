@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import { back } from "../assets/images";
 import { motion } from "framer-motion";
 const Hours = ({ hours, handleRender }) => {

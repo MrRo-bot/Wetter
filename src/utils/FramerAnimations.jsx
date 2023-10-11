@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from "react";
+/* eslint-disable react/prop-types */
+import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 
 const FramerAnimations = ({ children }) => {
@@ -12,7 +13,7 @@ const FramerAnimations = ({ children }) => {
     if (isInView) {
       mainControls.start("visible");
     }
-  }, [isInView]);
+  }, [isInView, mainControls]);
 
   return (
     <motion.div

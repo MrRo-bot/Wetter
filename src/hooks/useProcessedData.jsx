@@ -218,7 +218,7 @@ const useProcess = () => {
         }
       })();
     }
-  }, [apiJson]);
+  }, [apiJson, location.latitude, location.longitude]);
 
   return [finalData, location];
 };

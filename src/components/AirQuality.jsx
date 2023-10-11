@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import FramerAnimations from "../utils/FramerAnimations";
 
 const AirQuality = ({ aqi }) => {

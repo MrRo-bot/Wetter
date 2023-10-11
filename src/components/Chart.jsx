@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Area, AreaChart, XAxis, YAxis, ResponsiveContainer } from "recharts";
 import { expand } from "../assets/images";
 import { useState } from "react";

@@ -1,4 +1,3 @@
-import React from "react";
 import { weatherman } from "../assets/images";
 import { motion } from "framer-motion";
 

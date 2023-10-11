@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import { extractColors } from "extract-colors";
 import FramerAnimations from "../utils/FramerAnimations";

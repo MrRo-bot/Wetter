@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import { Days } from "../components/index";
 import { windAlternate, expand } from "../assets/images";

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import { Hours } from "../components/index";
 import { expand, windAlternate } from "../assets/images";
