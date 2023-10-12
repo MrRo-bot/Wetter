@@ -148,14 +148,19 @@ const useProcess = () => {
           )} at ${
             valRound(apiJson.weather.daily.windspeed_10m_max[0]) +
             apiJson.weather.daily_units.windspeed_10m_max
-          }. Chance of precipitation ${
-            apiJson.weather.daily.precipitation_probability_max[0] +
-            apiJson.weather.daily_units.precipitation_probability_max
-          }. ${
-            apiJson.weather.daily.precipitation_sum[0] +
-            apiJson.weather.daily_units.precipitation_sum
+          }${
+            apiJson.weather.daily.precipitation_probability_max[0] === null ||
+            apiJson.weather.daily.precipitation_probability_max[0] === 0
+              ? ""
+              : `. Chance of precipitation ${apiJson.weather.daily.precipitation_probability_max[0]}${apiJson.weather.daily_units.precipitation_probability_max}`
+          }${
+            apiJson.weather.daily.precipitation_sum[0] > 0
+              ? apiJson.weather.daily.precipitation_sum[0] +
+                apiJson.weather.daily_units.precipitation_sum
+              : ""
           }.`,
         },
+
         DETAIL: {
           feels_like:
             valRound(apiJson.weather.hourly.apparent_temperature[currIndex]) +

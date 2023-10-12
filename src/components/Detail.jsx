@@ -66,7 +66,7 @@ const Detail = ({ detail }) => {
                   {x.heading}
                 </h3>
                 <span className="text-2xl font-thin sm:text-3xl font-inter text-text dark:text-textD">
-                  {x.data}
+                  {x.data ?? "⚠️"}
                 </span>
               </div>
             </FramerAnimations>

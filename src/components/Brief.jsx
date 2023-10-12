@@ -86,7 +86,7 @@ const Brief = ({ brief, sunPos, img, city, daysData }) => {
             >
               <img className="w-5 h-5 mb-[2px]" src={sunrise} alt="sunrise" />
               <div className="text-sm font-light text-body font-inter">
-                {sunPos.sunrise}
+                {sunPos.sunrise ?? "⚠️"}
               </div>
             </motion.div>
 
@@ -102,7 +102,7 @@ const Brief = ({ brief, sunPos, img, city, daysData }) => {
             >
               <img className="w-5 h-5 mb-[2px]" src={sunset} alt="sunset" />
               <div className="text-sm font-light text-body font-inter">
-                {sunPos.sunset}
+                {sunPos.sunset ?? "⚠️"}
               </div>
             </motion.div>
           </div>
@@ -120,7 +120,7 @@ const Brief = ({ brief, sunPos, img, city, daysData }) => {
             style={{ color: `${clrFrmImg || "gray"}` }}
             className="mr-4 text-6xl font-thin drop-shadow-lg sm:text-7xl md:text-6xl lg:text-7xl font-inter"
           >
-            {brief.currentTemp}
+            {brief.currentTemp ?? "⚠️"}
           </motion.span>
 
           <motion.div
@@ -137,7 +137,7 @@ const Brief = ({ brief, sunPos, img, city, daysData }) => {
               style={{ color: `${clrFrmImg || "gray"}` }}
               className="text-2xl drop-shadow-lg font-extralight sm:text-3xl md:text-2xl lg:text-3xl font-inter"
             >
-              {brief.maxTemp}
+              {brief.maxTemp ?? "⚠️"}
             </sup>
             <span
               style={{ color: `${clrFrmImg || "gray"}` }}
@@ -149,7 +149,7 @@ const Brief = ({ brief, sunPos, img, city, daysData }) => {
               style={{ color: `${clrFrmImg || "gray"}` }}
               className="text-2xl drop-shadow-lg font-extralight sm:text-3xl md:text-2xl lg:text-3xl font-inter"
             >
-              {brief.minTemp}
+              {brief.minTemp ?? "⚠️"}
             </sub>
           </motion.div>
 
@@ -163,13 +163,13 @@ const Brief = ({ brief, sunPos, img, city, daysData }) => {
             transition={{ duration: 0.4, delay: 0.6 }}
           >
             <div className="mt-3 text-[0.7rem] font-light sm:text-sm sm:mt-6 text-greyText dark:text-greyTextD font-pathway">
-              {brief.dateStamp}
+              {brief.dateStamp ?? "⚠️"}
             </div>
             <div className="my-2 text-2xl font-medium leading-4 text-text dark:text-textD sm:text-3xl font-pathway">
-              {city}
+              {city ?? "⚠️"}
             </div>
             <div className="text-sm font-light text-text dark:text-textD sm:text-base font-pathway">
-              {brief.main}
+              {brief.main ?? "⚠️"}
             </div>
           </motion.div>
 
@@ -184,7 +184,7 @@ const Brief = ({ brief, sunPos, img, city, daysData }) => {
             onClick={handleRender}
             className="relative mt-3 text-xs font-normal cursor-pointer sm:text-sm sm:mt-6 text-greyText font-inter dark:text-greyTextD"
           >
-            <div className="w-10/12 ">{brief.summary}</div>
+            <div className="w-10/12 ">{brief.summary ?? "⚠️"}</div>
             <div className="absolute w-5 h-5 right-0 top-[50%] translate-y-[-50%]">
               <img
                 src={expand}

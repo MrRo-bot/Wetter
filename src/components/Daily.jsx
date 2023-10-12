@@ -41,14 +41,14 @@ const Daily = ({ daily }) => {
               className="flex flex-col items-center w-20 gap-1 justify-evenly sm:gap-2 sm:w-24"
             >
               <span className="text-sm font-light sm:text-base font-inter text-greyText dark:text-mainHeadingD">
-                {x.maxTemp}
+                {x.maxTemp ?? "⚠️"}
               </span>
               <span className="text-sm font-light sm:text-base font-inter text-greyText dark:text-mainHeadingD">
-                {x.minTemp}
+                {x.minTemp ?? "⚠️"}
               </span>
 
               <span className="text-xs font-light font-inter text-chanceOfPrecipitation">
-                {x.precipitation}
+                {x.precipitation ?? "⚠️"}
               </span>
               <img
                 className="w-6"
@@ -62,7 +62,7 @@ const Daily = ({ daily }) => {
                 alt="⚠️"
               />
               <span className="text-xs font-light font-pathway text-greyText dark:text-greyTextD">
-                {x.windSpeed}
+                {x.windSpeed ?? "⚠️"}
               </span>
               <img
                 style={{ transform: `rotate(${x.windDirection}deg)` }}
@@ -71,7 +71,7 @@ const Daily = ({ daily }) => {
                 alt="wind direction"
               />
               <span className="text-xs font-light font-pathway text-greyText dark:text-greyTextD">
-                {x.dateStamp.slice(0, 3)}
+                {x.dateStamp.slice(0, 3) ?? "⚠️"}
               </span>
             </div>
           ))}

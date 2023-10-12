@@ -67,7 +67,7 @@ const Hourly = ({ hourly }) => {
                 alt="wind direction"
               />
               <span className="text-[0.6rem] sm:text-[0.7rem] font-light sm:font-medium font-pathway text-greyText dark:text-greyTextD">
-                {x.hourStamp.toLowerCase()}
+                {x.hourStamp.toLowerCase() ?? "⚠️"}
               </span>
             </div>
           ))}

@@ -14,19 +14,19 @@ const AirQuality = ({ aqi }) => {
               style={{ color: `var(--${aqi.color})` }}
               className="text-5xl font-thin sm:text-6xl font-inter"
             >
-              {aqi.index}
+              {aqi.index ?? "⚠️"}
             </span>
           </FramerAnimations>
 
           <div>
             <FramerAnimations>
               <div className="text-lg font-semibold font-pathway sm:text-xl text-mainHeading dark:text-mainHeadingD">
-                {aqi.level}
+                {aqi.level ?? "⚠️"}
               </div>
             </FramerAnimations>
             <FramerAnimations>
               <div className="text-sm font-normal sm:text-base text-greyText dark:text-greyTextD font-inter">
-                {aqi.desc}
+                {aqi.desc ?? "⚠️"}
               </div>
             </FramerAnimations>
           </div>

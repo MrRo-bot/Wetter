@@ -46,31 +46,31 @@ const Hours = ({ hours, handleRender }) => {
               </div>
 
               <div className="row-start-2 row-end-3 mx-auto text-xs font-light font-inter text-chanceOfPrecipitation">
-                {x.precipitation}
+                {x.precipitation ?? "⚠️"}
               </div>
 
               <div className="row-start-1 row-end-2">
                 <h3 className="font-pathway text-text dark:text-textD">
-                  {x.hourStamp}
+                  {x.hourStamp ?? "⚠️"}
                 </h3>
                 <div className="text-sm font-normal font-inter text-text dark:text-textD">
-                  {x.feels_like}
+                  {x.feels_like ?? "⚠️"}
                 </div>
                 <div className="text-xs text-greyText font-inter dark:text-greyTextD">
-                  {x.weatherMain}
+                  {x.weatherMain ?? "⚠️"}
                 </div>
               </div>
               <div className="row-start-2 row-end-3">
                 <div className="text-xs text-greyText font-inter dark:text-greyTextD">
-                  Wind: {x.windSpeed} • {x.wind}
+                  Wind: {x.windSpeed ?? "⚠️"} • {x.wind ?? "⚠️"}
                   <br />
-                  Gust: {x.gust}
+                  Gust: {x.gust ?? "⚠️"}
                   <br />
-                  Clouds: {x.clouds}
+                  Clouds: {x.clouds ?? "⚠️"}
                   <br />
-                  Humidity: {x.humidity}
+                  Humidity: {x.humidity ?? "⚠️"}
                   <br />
-                  Dew point: {x.dewPoint}
+                  Dew point: {x.dewPoint ?? "⚠️"}
                   <br />
                 </div>
               </div>

@@ -20,12 +20,12 @@ const Wind = ({ wind }) => {
           <div>
             <FramerAnimations>
               <div className="text-3xl font-thin sm:text-4xl text-greyText dark:text-greyTextD font-inter">
-                {wind.windSpeed + " " + wind.unit}
+                {wind.windSpeed + " " + wind.unit ?? "⚠️"}
               </div>
             </FramerAnimations>
             <FramerAnimations>
               <div className="mt-1 text-xs font-medium sm:text-base text-greyText dark:text-greyTextD font-pathway">
-                {wind.windDirection}
+                {wind.windDirection ?? "⚠️"}
               </div>
             </FramerAnimations>
           </div>

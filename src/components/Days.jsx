@@ -45,26 +45,26 @@ const Days = ({ days, handleRender }) => {
               </div>
 
               <div className="row-start-2 row-end-3 mx-auto text-xs font-light font-inter text-chanceOfPrecipitation">
-                {x.precipitation}
+                {x.precipitation ?? "⚠️"}
               </div>
 
               <div className="row-start-1 row-end-2">
                 <h3 className="font-pathway text-text dark:text-textD">
-                  {x.dateStamp}
+                  {x.dateStamp ?? "⚠️"}
                 </h3>
                 <span className="text-sm font-normal font-inter text-text dark:text-textD">
-                  {x.maxTemp}
+                  {x.maxTemp ?? "⚠️"}
                 </span>
                 <span className="text-sm font-normal font-inter text-text dark:text-textD">
                   {" "}
                   /{" "}
                 </span>
                 <span className="text-sm font-normal font-inter text-text dark:text-textD">
-                  {x.minTemp}
+                  {x.minTemp ?? "⚠️"}
                 </span>
               </div>
               <div className="row-start-2 row-end-3 text-xs text-greyText font-inter dark:text-greyTextD">
-                {x.summary}
+                {x.summary ?? "⚠️"}
               </div>
             </div>
           ))}
