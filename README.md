@@ -11,11 +11,11 @@
 ![ESLint](https://img.shields.io/badge/ESLint-purple)
 ![Prettier](https://img.shields.io/badge/Prettier-darkblue)
 
-<a href="https://https://youtu.be/-D5aYMGIiKU" target="_blank"><img src="/public/wetter_desktop.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+[![Desktop view](/public/wetter_desktop.jpg)]
+(https://youtu.be/-D5aYMGIiKU)
 
-<a href="https://youtu.be/kpaygBjb8Ac" target="_blank"><img src="/public/wetter_mobile.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+[![Mobile view](/public/wetter_mobile.jpg)]
+(https://youtu.be/kpaygBjb8Ac)
 
 ## Table of contents
 
