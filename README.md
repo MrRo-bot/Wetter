@@ -9,10 +9,13 @@
 ![Vite](https://img.shields.io/badge/Vite-purple)
 ![NPM](https://img.shields.io/badge/NPM-red)
 ![ESLint](https://img.shields.io/badge/ESLint-purple)
-![Prettier](https://img.shields.io/badge/ESLint-darkpurple)
+![Prettier](https://img.shields.io/badge/Prettier-darkblue)
 
-![desktop screenshot](/public/desktop-screenshot.png "Desktop Screenshot")
-![mobile screenshot](/public/mobile-screenshot.png "Mobile Screenshot")
+<a href="https://https://youtu.be/-D5aYMGIiKU" target="_blank"><img src="/public/wetter_desktop.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+<a href="https://youtu.be/kpaygBjb8Ac" target="_blank"><img src="/public/wetter_mobile.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Table of contents
 
@@ -78,6 +81,7 @@ I created this web app to showcase data fetching ability and land a job as a Rea
 - Git `v2.42.0.windows.2`
 - Github
 - Netlify
+- Node `v20.11.0`
 
 ### References
 
