@@ -11,11 +11,9 @@
 ![ESLint](https://img.shields.io/badge/ESLint-purple)
 ![Prettier](https://img.shields.io/badge/Prettier-darkblue)
 
-[![Desktop view](/public/wetter_desktop.jpg)]
-(https://youtu.be/-D5aYMGIiKU)
+[![Desktop view](https://img.youtube.com/vi/-D5aYMGIiKU/0.jpg)](https://www.youtube.com/watch?v=-D5aYMGIiKU)
 
-[![Mobile view](/public/wetter_mobile.jpg)]
-(https://youtu.be/kpaygBjb8Ac)
+[![Mobile view](https://img.youtube.com/vi/kpaygBjb8Ac/0.jpg)](https://www.youtube.com/watch?v=kpaygBjb8Ac)
 
 ## Table of contents
 
@@ -75,6 +73,7 @@ I created this web app to showcase data fetching ability and land a job as a Rea
 ### Web-technologies
 
 - React `v18.2.0`
+- TailwindCSS `v3.3.3`
 - ES6
 - Vite `v4.4.9`
 - Visual Studio Code
