@@ -34,7 +34,7 @@
 
 ## Overview
 
-Wetter German for weather is a Minimalist React web app.
+Wetter (German for weather) is a Minimalist React web app.
 
 ### About
 
